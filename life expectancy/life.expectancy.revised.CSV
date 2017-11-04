@@ -1,0 +1,254 @@
+"","Country.Name","Country.Code","referenceYear","Total"
+"1","Aruba","ABW","2015",75.59434146
+"2","Afghanistan","AFG","2015",63.29819512
+"3","Angola","AGO","2015",61.18934146
+"4","Albania","ALB","2015",78.20314634
+"6","Arab World","ARB","2015",71.02843854
+"7","United Arab Emirates","ARE","2015",77.4842439
+"8","Argentina","ARG","2015",76.29302439
+"9","Armenia","ARM","2015",74.20619512
+"11","Antigua and Barbuda","ATG","2015",76.07563415
+"12","Australia","AUS","2015",82.45121951
+"13","Austria","AUT","2015",81.84390244
+"14","Azerbaijan","AZE","2015",71.84519512
+"15","Burundi","BDI","2015",57.06934146
+"16","Belgium","BEL","2015",81.28780488
+"17","Benin","BEN","2015",60.58468293
+"18","Burkina Faso","BFA","2015",59.84465854
+"19","Bangladesh","BGD","2015",72.22160976
+"20","Bulgaria","BGR","2015",74.46585366
+"21","Bahrain","BHR","2015",76.86519512
+"22","Bahamas, The","BHS","2015",75.36878049
+"23","Bosnia and Herzegovina","BIH","2015",76.64029268
+"24","Belarus","BLR","2015",73.62439024
+"25","Belize","BLZ","2015",70.31097561
+"26","Bermuda","BMU","2015",81.01219512
+"27","Bolivia","BOL","2015",68.74980488
+"28","Brazil","BRA","2015",75.19912195
+"29","Barbados","BRB","2015",75.63790244
+"30","Brunei Darussalam","BRN","2015",77.0667561
+"31","Bhutan","BTN","2015",69.80712195
+"32","Botswana","BWA","2015",65.75109756
+"33","Central African Republic","CAF","2015",51.37785366
+"34","Canada","CAN","2015",82.12902439
+"35","Central Europe and the Baltics","CEB","2015",77.0269071
+"36","Switzerland","CHE","2015",83.19756098
+"37","Channel Islands","CHI","2015",80.88526829
+"38","Chile","CHL","2015",79.16068293
+"39","China","CHN","2015",76.11709756
+"40","Cote d'Ivoire","CIV","2015",53.0782439
+"41","Cameroon","CMR","2015",57.5575122
+"42","Congo, Dem. Rep.","COD","2015",59.17321951
+"43","Congo, Rep.","COG","2015",64.09073171
+"44","Colombia","COL","2015",74.15619512
+"45","Comoros","COM","2015",63.46068293
+"46","Cabo Verde","CPV","2015",72.43517073
+"47","Costa Rica","CRI","2015",79.60890244
+"48","Caribbean small states","CSS","2015",73.04810113
+"49","Cuba","CUB","2015",79.54370732
+"50","Curacao","CUW","2014",77.82439024
+"52","Cyprus","CYP","2015",80.29104878
+"53","Czech Republic","CZE","2015",79.47317073
+"54","Germany","DEU","2015",81.0902439
+"55","Djibouti","DJI","2015",62.24982927
+"56","Dominica","DMA","2002",76.59756098
+"57","Denmark","DNK","2015",81.1
+"58","Dominican Republic","DOM","2015",73.70368293
+"59","Algeria","DZA","2015",75.85529268
+"60","East Asia & Pacific (excluding high income)","EAP","2015",74.34183078
+"61","Early-demographic dividend","EAR","2015",69.52779013
+"62","East Asia & Pacific","EAS","2015",75.25604166
+"63","Europe & Central Asia (excluding high income)","ECA","2015",72.46689195
+"64","Europe & Central Asia","ECS","2015",77.3948729
+"65","Ecuador","ECU","2015",76.0815122
+"66","Egypt, Arab Rep.","EGY","2015",71.29565854
+"67","Euro area","EMU","2015",82.07022116
+"68","Eritrea","ERI","2015",64.62439024
+"69","Spain","ESP","2015",83.3804878
+"70","Estonia","EST","2015",77.13170732
+"71","Ethiopia","ETH","2015",65.00829268
+"72","European Union","EUU","2015",81.1263925
+"73","Fragile and conflict affected situations","FCS","2015",62.04935535
+"74","Finland","FIN","2015",81.38536585
+"75","Fiji","FJI","2015",70.22426829
+"76","France","FRA","2015",82.67073171
+"77","Faroe Islands","FRO","2015",81.63414634
+"78","Micronesia, Fed. Sts.","FSM","2015",69.04663415
+"79","Gabon","GAB","2015",65.68441463
+"80","United Kingdom","GBR","2015",81.60487805
+"81","Georgia","GEO","2015",72.96612195
+"82","Ghana","GHA","2015",62.4072439
+"84","Guinea","GIN","2015",59.39895122
+"85","Gambia, The","GMB","2015",60.95743902
+"86","Guinea-Bissau","GNB","2015",56.95039024
+"87","Equatorial Guinea","GNQ","2015",57.50839024
+"88","Greece","GRC","2015",81.58780488
+"89","Grenada","GRD","2015",73.49953659
+"90","Greenland","GRL","2013",71.8304878
+"91","Guatemala","GTM","2015",73.04297561
+"92","Guam","GUM","2015",79.37763415
+"93","Guyana","GUY","2015",66.53936585
+"94","High income","HIC","2015",80.74130969
+"95","Hong Kong SAR, China","HKG","2015",84.27804878
+"96","Honduras","HND","2015",73.32460976
+"97","Heavily indebted poor countries (HIPC)","HPC","2015",61.6223619
+"98","Croatia","HRV","2015",77.27560976
+"99","Haiti","HTI","2015",63.01078049
+"100","Hungary","HUN","2015",75.96097561
+"101","IBRD only","IBD","2015",72.55544022
+"102","IDA & IBRD total","IBT","2015",70.24842028
+"103","IDA total","IDA","2015",63.27507351
+"104","IDA blend","IDB","2015",61.35832808
+"105","Indonesia","IDN","2015",69.03863415
+"106","IDA only","IDX","2015",64.22299397
+"107","Isle of Man","IMN","2002",77.96585366
+"108","India","IND","2015",68.33260976
+"110","Ireland","IRL","2015",81.50243902
+"111","Iran, Islamic Rep.","IRN","2015",75.74263415
+"112","Iraq","IRQ","2015",69.63460976
+"113","Iceland","ISL","2015",82.86097561
+"114","Israel","ISR","2015",82.05121951
+"115","Italy","ITA","2015",83.4902439
+"116","Jamaica","JAM","2015",75.80668293
+"117","Jordan","JOR","2015",74.19102439
+"118","Japan","JPN","2015",83.84365854
+"119","Kazakhstan","KAZ","2015",72
+"120","Kenya","KEN","2015",66.64565854
+"121","Kyrgyz Republic","KGZ","2015",70.65121951
+"122","Cambodia","KHM","2015",68.47204878
+"123","Kiribati","KIR","2015",66.05219512
+"124","St. Kitts and Nevis","KNA","2002",71.33658537
+"125","Korea, Rep.","KOR","2015",82.15585366
+"126","Kuwait","KWT","2015",74.74682927
+"127","Latin America & Caribbean (excluding high income)","LAC","2015",75.13039619
+"128","Lao PDR","LAO","2015",66.28404878
+"129","Lebanon","LBN","2015",79.4982439
+"130","Liberia","LBR","2015",61.98021951
+"131","Libya","LBY","2015",71.83039024
+"132","St. Lucia","LCA","2015",75.2835122
+"133","Latin America & Caribbean","LCN","2015",75.27120874
+"134","Least developed countries: UN classification","LDC","2015",64.0646819
+"135","Low income","LIC","2015",62.06047438
+"136","Liechtenstein","LIE","2015",82.07317073
+"137","Sri Lanka","LKA","2015",74.98895122
+"138","Lower middle income","LMC","2015",67.7051777
+"139","Low & middle income","LMY","2015",70.19326103
+"140","Lesotho","LSO","2015",53.57009756
+"141","Late-demographic dividend","LTE","2015",75.52288235
+"142","Lithuania","LTU","2015",75.1195122
+"143","Luxembourg","LUX","2015",82.22926829
+"144","Latvia","LVA","2015",74.12439024
+"145","Macao SAR, China","MAC","2015",83.59490244
+"146","St. Martin (French part)","MAF","2015",79.47073171
+"147","Morocco","MAR","2015",75.52014634
+"149","Moldova","MDA","2015",71.37121951
+"150","Madagascar","MDG","2015",65.50782927
+"151","Maldives","MDV","2015",77.12026829
+"152","Middle East & North Africa","MEA","2015",73.32241546
+"153","Mexico","MEX","2015",76.88136585
+"154","Marshall Islands","MHL","2000",65.23902439
+"155","Middle income","MIC","2015",71.13718238
+"156","Macedonia, FYR","MKD","2015",75.52431707
+"157","Mali","MLI","2015",57.45770732
+"158","Malta","MLT","2015",81.94634146
+"159","Myanmar","MMR","2015",66.38563415
+"160","Middle East & North Africa (excluding high income)","MNA","2015",72.7953708
+"161","Montenegro","MNE","2015",76.86431707
+"162","Mongolia","MNG","2015",69.11587805
+"164","Mozambique","MOZ","2015",57.60926829
+"165","Mauritania","MRT","2015",63.04636585
+"166","Mauritius","MUS","2015",74.35317073
+"167","Malawi","MWI","2015",62.54336585
+"168","Malaysia","MYS","2015",75.22019512
+"169","North America","NAC","2015",79.08222552
+"170","Namibia","NAM","2015",63.63643902
+"171","New Caledonia","NCL","2015",77.77317073
+"172","Niger","NER","2015",59.68187805
+"173","Nigeria","NGA","2015",52.97792683
+"174","Nicaragua","NIC","2015",75.038
+"175","Netherlands","NLD","2015",81.70731707
+"176","Norway","NOR","2015",82.1
+"177","Nepal","NPL","2015",69.86985366
+"179","New Zealand","NZL","2015",81.45682927
+"180","OECD members","OED","2015",80.28312399
+"181","Oman","OMN","2015",77.12182927
+"182","Other small states","OSS","2015",67.33112903
+"183","Pakistan","PAK","2015",66.33217073
+"184","Panama","PAN","2015",77.81743902
+"185","Peru","PER","2015",74.71341463
+"186","Philippines","PHL","2015",69.00985366
+"187","Palau","PLW","2005",69.12926829
+"188","Papua New Guinea","PNG","2015",65.38770732
+"189","Poland","POL","2015",78.20487805
+"190","Pre-demographic dividend","PRE","2015",59.50281022
+"191","Puerto Rico","PRI","2015",79.59612195
+"192","Korea, Dem. People¡¯s Rep.","PRK","2015",71.2387561
+"193","Portugal","PRT","2015",81.52195122
+"194","Paraguay","PRY","2015",73.04297561
+"195","West Bank and Gaza","PSE","2015",73.30168293
+"196","Pacific island small states","PSS","2015",70.75254202
+"197","Post-demographic dividend","PST","2015",80.64646234
+"198","French Polynesia","PYF","2015",76.6915122
+"199","Qatar","QAT","2015",78.46270732
+"200","Romania","ROU","2015",74.96097561
+"201","Russian Federation","RUS","2015",70.90853659
+"202","Rwanda","RWA","2015",66.62087805
+"203","South Asia","SAS","2015",68.48545298
+"204","Saudi Arabia","SAU","2015",74.5744878
+"205","Sudan","SDN","2015",64.22941463
+"206","Senegal","SEN","2015",66.66143902
+"207","Singapore","SGP","2015",82.59512195
+"208","Solomon Islands","SLB","2015",70.47668293
+"209","Sierra Leone","SLE","2015",51.41285366
+"210","El Salvador","SLV","2015",73.00309756
+"211","San Marino","SMR","2011",83.32321508
+"212","Somalia","SOM","2015",55.87285366
+"213","Serbia","SRB","2015",75.48780488
+"214","Sub-Saharan Africa (excluding high income)","SSA","2015",59.90058785
+"215","South Sudan","SSD","2015",56.30258537
+"216","Sub-Saharan Africa","SSF","2015",59.90182611
+"217","Small states","SST","2015",68.57721416
+"218","Sao Tome and Principe","STP","2015",66.41665854
+"219","Suriname","SUR","2015",71.28619512
+"220","Slovak Republic","SVK","2015",77.21219512
+"221","Slovenia","SVN","2015",81.07804878
+"222","Sweden","SWE","2015",82.55121951
+"223","Swaziland","SWZ","2015",56.91236585
+"224","Sint Maarten (Dutch part)","SXM","2012",73.05365854
+"225","Seychelles","SYC","2015",73.22926829
+"226","Syrian Arab Republic","SYR","2015",70.25265854
+"228","Chad","TCD","2015",52.55395122
+"229","East Asia & Pacific (IDA & IBRD countries)","TEA","2015",74.38078
+"230","Europe & Central Asia (IDA & IBRD countries)","TEC","2015",72.94809221
+"231","Togo","TGO","2015",59.92370732
+"232","Thailand","THA","2015",75.068
+"233","Tajikistan","TJK","2015",71.00712195
+"234","Turkmenistan","TKM","2015",67.64104878
+"235","Latin America & the Caribbean (IDA & IBRD countries)","TLA","2015",75.16584183
+"236","Timor-Leste","TLS","2015",68.58002439
+"237","Middle East & North Africa (IDA & IBRD countries)","TMN","2015",72.78920326
+"238","Tonga","TON","2015",72.84017073
+"239","South Asia (IDA & IBRD)","TSA","2015",68.48545298
+"240","Sub-Saharan Africa (IDA & IBRD countries)","TSS","2015",59.90182611
+"241","Trinidad and Tobago","TTO","2015",70.58885366
+"242","Tunisia","TUN","2015",75.49704878
+"243","Turkey","TUR","2015",75.40709756
+"245","Tanzania","TZA","2015",64.90331707
+"246","Uganda","UGA","2015",59.5087561
+"247","Ukraine","UKR","2015",71.1895122
+"248","Upper middle income","UMC","2015",75.11854968
+"249","Uruguay","URY","2015",77.13163415
+"250","United States","USA","2015",78.74146341
+"251","Uzbekistan","UZB","2015",71.14568293
+"252","St. Vincent and the Grenadines","VCT","2015",73.06495122
+"253","Venezuela, RB","VEN","2015",74.3915122
+"255","Virgin Islands (U.S.)","VIR","2015",79.87317073
+"256","Vietnam","VNM","2015",75.89119512
+"257","Vanuatu","VUT","2015",71.98490244
+"258","World","WLD","2015",71.88880421
+"259","Samoa","WSM","2015",74.83870732
+"260","Kosovo","XKX","2015",71.34634146
+"261","Yemen, Rep.","YEM","2015",64.72568293
+"262","South Africa","ZAF","2015",61.93409756
+"263","Zambia","ZMB","2015",61.33958537
+"264","Zimbabwe","ZWE","2015",60.27934146
