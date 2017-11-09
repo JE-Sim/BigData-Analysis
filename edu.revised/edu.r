@@ -55,6 +55,12 @@ common <- function(data1, data2) {
   return(common)
 }
 
+#edu : sort되어있는지 확인
+pre1 <- pre1[order(pre1 $ Country.Code),]
+pri1 <- pri1[order(pri1 $ Country.Code),]
+sec1 <- sec1[order(sec1 $ Country.Code),]
+ter1 <- ter1[order(ter1 $ Country.Code),]
+
 edu.code <- common(pre1, pri1)
 edu.code1 <- common(sec1, ter1)
 edu.index <- as.factor(common(edu.code, edu.code1))
