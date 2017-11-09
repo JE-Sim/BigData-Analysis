@@ -74,6 +74,12 @@ recent.year <- function(data) {
 
 # Obesity : Country.Code x
 Obesity <- read.csv("Obesity raw data.csv", header = T)
+Obesity[,2] <- substr(Obesity[,2],1,4)
+Obesity[,3] <- substr(Obesity[,3],1,4)
+Obesity[,4] <- substr(Obesity[,4],1,4)
+Obesity[,5] <- substr(Obesity[,5],1,4)
+Obesity
+
 Obesity.1 <- recent.year(Obesity)
 
 Obesity.1 <- na.omit(Obesity.1)
