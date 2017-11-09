@@ -1,4 +1,4 @@
-setwd("C:/Users/정은/Desktop/data")
+setwd("C:/Users/정은/Desktop/data/edu.revised")
 pre <- read.csv("pre-primary_1.csv", header = T)
 pri <- read.csv("primary_1.csv", header = T)
 sec <- read.csv("secondary_1.csv", header = T)
@@ -77,3 +77,6 @@ sec0 <- sec1[edu.index, 4]
 ter0 <- ter1[edu.index, 4]
 edu2 <- cbind(pre0, pri0, sec0, ter0)
 colnames(edu2)[3:6] <- c("pre-primary", "primary", "secondary", "tertiary")
+
+write.csv(edu1, "edu.recent.csv", row.names = F)
+write.csv(edu2, "edu.2015.csv", row.names = F)
