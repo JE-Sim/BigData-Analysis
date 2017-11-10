@@ -12,7 +12,7 @@ recentYear <- function(data) {
 
 
 # CO2
-setwd("C:/Users/dlgpw/Documents/row data")
+setwd("C:/Users/정은/Desktop/BigData-Analysis")
 CO.2 <- read.csv("CO2 raw data.csv", header = T)
 CO.2.1 <- recentYear(CO.2)
 CO.2.1 <- na.omit(CO.2.1)
@@ -80,7 +80,19 @@ Obesity[,4] <- substr(Obesity[,4],1,4)
 Obesity[,5] <- substr(Obesity[,5],1,4)
 Obesity
 
-Obesity.1 <- recent.year(Obesity)
-
 Obesity.1 <- na.omit(Obesity.1)
-write.csv(Obesity.1, "Obesity.revised.CSV", row.names = F)
+setwd("c:/Users/정은/Desktop")
+write.csv(country.code, "살려주세요.CSV", row.names = F)
+Obesity <- read.csv("Obesity.revised.CSV")
+Obesity <- Obesity[order(Obesity$Country.Name),]
+
+c.name <- as.character(country.code$Country.Name)
+o.name <- as.character(Obesity$Country.Name)
+common <- intersect(c.name, o.name)
+country.code <- country.code[order(country.code$Country.Name),]
+
+o.name1 <- country.code[country.code$Country.Name %in% common,]
+obesity0 <- Obesity[Obesity $ Country.Name %in% common,]
+
+Obesity1 <- cbind(o.name1, obesity0[,-1])
+
