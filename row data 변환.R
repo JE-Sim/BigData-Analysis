@@ -93,6 +93,11 @@ country.code <- country.code[order(country.code$Country.Name),]
 
 o.name1 <- country.code[country.code$Country.Name %in% common,]
 obesity0 <- Obesity[Obesity $ Country.Name %in% common,]
-
 Obesity1 <- cbind(o.name1, obesity0[,-1])
+Obesity1$X2016[as.character(Obesity1$X2016) == "No d"] <- NA
+Obesity1 <- na.omit(Obesity1)
 
+obesity.2016 <- Obesity1[,c(1, 2, 6)]
+obesity.recent <- recentYear(Obesity1)
+
+write.csv(obesity.2016, "Obesity.2016.csv")
