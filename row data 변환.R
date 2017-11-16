@@ -24,7 +24,7 @@ write.csv(CO.2.1, "CO.2.revised.CSV", row.names = F)
 HIV <- read.csv("HIV raw data.csv", header = T)
 HIV.1 <- recentYear(HIV)
 HIV.1 <- na.omit(HIV.1)
-HIv.1 <- HIV.1[,-3]
+HIV.1 <- HIV.1[,-3]
 colnames(HIV.1) <- c("Country.Name", "Country.Code", "HIV")
 write.csv(HIV.1, "HIV.revised.CSV", row.names = F)
 
