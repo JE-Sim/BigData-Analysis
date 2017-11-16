@@ -1,3 +1,4 @@
+Country.Name,Region.Code,Country.Code,Continent,Countinent.Region
 Afghanistan,AF,AFG,Asia,Southern Asia
 Aland Islands,AX,ALA,Europe,Northern Europe
 Albania,AL,ALB,Europe,Southern Europe
@@ -53,7 +54,6 @@ Congo (Democratic Republic of the),CD,COD,Africa,Middle Africa
 Cook Islands,CK,COK,Asia,Polynesia
 Costa Rica,CR,CRI,Americas,Central America
 Cote d'Ivoire,CI,CIV,Africa,Western Africa
-Country.Name,Region.Code,Country.Code,Continent,Countinent.Region
 Croatia,HR,HRV,Europe,Southern Europe
 Cuba,CU,CUB,Americas,Caribbean
 Curacao,CW,CUW,Americas,Caribbean
