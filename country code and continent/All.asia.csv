@@ -77,7 +77,6 @@ Finland,FI,FIN,Europe,Northern Europe
 France,FR,FRA,Europe,Western Europe
 French Guiana,GF,GUF,Americas,South America
 French Polynesia,PF,PYF,Asia,Polynesia
-French Southern Territories,TF,ATF,,
 Gabon,GA,GAB,Africa,Middle Africa
 Gambia,GM,GMB,Africa,Western Africa
 Georgia,GE,GEO,Asia,Western Asia
@@ -152,7 +151,6 @@ Montserrat,MS,MSR,Americas,Caribbean
 Morocco,MA,MAR,Africa,Northern Africa
 Mozambique,MZ,MOZ,Africa,Eastern Africa
 Myanmar,MM,MMR,Asia,South-Eastern Asia
-name,alpha-2,alpha-3,region,sub-region
 Namibia,NA,NAM,Africa,Southern Africa
 Nauru,NR,NRU,Asia,Micronesia
 Nepal,NP,NPL,Asia,Southern Asia
