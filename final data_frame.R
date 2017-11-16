@@ -6,6 +6,7 @@ gdp <- read.csv("GDP.revised.csv")
 sani <- read.csv("Sanitation.revised.csv")
 edu <- read.csv("edu.recent.csv")
 smo <- read.csv("Smoking.final.csv")
+smo <- smo[,-3]
 ob <- read.csv("Obesity.2016.csv")
 colnames(ob)[3] <- "obesity"
 al <- read.csv("Alchol.revised2.csv")
@@ -33,4 +34,47 @@ Total <- merge(life, X, key = Country.Code)
 colnames(Total) <- c("Country.Name","Country.Code","life", "aa", "am", 
                      "af", "eu", "gdp", "sani", "pre", "pri", "sec", 
                      "ter", "smo", "ob", "al", "co2", "hiv")
-write.csv(Total, "data.final.csv")
+write.csv(Total, "data.final.csv", row.names = F)
+
+df <- read.csv("data.final.csv")
+
+
+life <- df$life; aa <- df$aa; am <- df$am; af <- df$af; eu <- df$eu
+gdp <- df$gdp; sani <- df$sani; pre <- df$pre; pri <- df$pri
+sec <- df$sec; ter <- df$ter; smo <- df$smo; ob <- df$ob
+al <- df$al; co2 <- df$co2; hiv <- df$hiv
+
+reg <- lm(life ~ gdp+sani+pre+pri+sec+ter+smo+ob+al+co2+hiv)
+names(reg)
+reg$fitted.values
+plot(life-reg$fitted.values)
+cor(life, reg$fitted.values)
+plot(reg$residuals)
+anova.reg <- anova(reg)
+names(df)
+
+df1 <- df[,-c(1, 2, 3, 4, 5, 6, 7)]
+
+par(mfrow = c(3, 4))
+for (j in c(1:12)){
+  plot(df1[,j], life, color=c("white","gray"), xlab=colnames(df1)[j], main=paste("x", j))
+}
+
+# gdp 로그변환, sani, pre, smo, ob(two group), al, co2 로그 변환, hiv 로그 변환
+
+df2 <- cbind(log(gdp, 10), sani, pre, smo, al, log(co2, 2), log(hiv, 2))
+colnames(df2) <- c("log.gdp", "sani", "pre", "smo", "al", "log.co2", "log.hiv")
+par(mfrow = c(3, 3))
+for (j in c(1:7)){
+  plot(df2[,j], life, color=c("white","gray"), xlab=colnames(df2)[j], main=paste("x", j))
+}
+
+answer <- NULL
+for (j in c(1:7)){
+  answer <- c(answer, cor(life, df2[,j]))
+}
+answer
+plot(smo ~ ob)
+plot(log(gdp, 10) ~ ob)
+plot(al ~ ob)
+
