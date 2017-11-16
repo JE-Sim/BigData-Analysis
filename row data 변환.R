@@ -12,7 +12,7 @@ recentYear <- function(data) {
 
 
 # CO2
-setwd("C:/Users/정은/Desktop/BigData-Analysis")
+setwd("C:/Users/정은/Desktop/BigData-Analysis/raw data")
 CO.2 <- read.csv("CO2 raw data.csv", header = T)
 CO.2.1 <- recentYear(CO.2)
 CO.2.1 <- na.omit(CO.2.1)
@@ -81,8 +81,9 @@ Obesity[,5] <- substr(Obesity[,5],1,4)
 Obesity
 
 Obesity.1 <- na.omit(Obesity.1)
-setwd("c:/Users/정은/Desktop")
+setwd("C:/Users/정은/Desktop/BigData-Analysis/country code and continent")
 write.csv(country.code, "살려주세요.CSV", row.names = F)
+
 Obesity <- read.csv("Obesity.revised.CSV")
 Obesity <- Obesity[order(Obesity$Country.Name),]
 
@@ -101,5 +102,6 @@ obesity.2016 <- Obesity1[,c(1, 2, 6)]
 obesity.recent <- recentYear(Obesity1)
 
 write.csv(obesity.2016, "Obesity.2016.csv")
+#2016. recent year two version is identical
 
 #changed
