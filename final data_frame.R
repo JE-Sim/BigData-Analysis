@@ -1,4 +1,4 @@
-setwd("C:/Users/정은/Desktop")
+setwd("C:/Users/정은/Desktop/BigData-Analysis/final.dataset")
 life <- read.csv("life.expectancy.revised.csv")
 life <- life[,c(2, 3, 5)]
 conti <- read.csv("All.asia.csv")
@@ -36,6 +36,7 @@ colnames(Total) <- c("Country.Name","Country.Code","life", "aa", "am",
                      "ter", "smo", "ob", "al", "co2", "hiv")
 write.csv(Total, "data.final.csv", row.names = F)
 
+######################################################################
 df <- read.csv("data.final.csv")
 
 
